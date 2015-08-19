@@ -102,7 +102,7 @@ System.out.println("Try to connect the server.......");
 					while(isConnected) {
 						String str;
 							str = dis.readUTF();
-		//					.out.println(str);
+		//					System.out.println(str);
 							textArea.setText(textArea.getText()+str+"\n");
 					}
 				} catch (SocketException e) {
